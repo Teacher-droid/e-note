@@ -13,7 +13,7 @@ const Main = ({ activeNote, onUpdateNote }) => {
 
   return (
     <div className="app-main">
-      <div className="app-main-note-edit'>
+      <div className="app-main-note-edit">
         <input
           type="text"
           id="title"
@@ -35,7 +35,7 @@ const Main = ({ activeNote, onUpdateNote }) => {
           {activeNote.body}
         </ReactMarkdown>
       </div>
-    </div >
+    </div>
   );
 };
 
